@@ -1,0 +1,7 @@
+echo "# csd-325" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/racheltheis/csd-325.git
+git push -u origin main
